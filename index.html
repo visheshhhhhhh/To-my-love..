@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Rasmalai ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hearts"></div>
+
+    <audio id="music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-btn" onclick="playMusic()">🎵 Play Music</button>
+
+    <div class="container" id="welcome">
+        <h1>Happy Birthday, Rasmalai ❤️</h1>
+        <p>A little surprise made just for you ✨</p>
+        <button onclick="showQuiz()">Start Your Surprise 💕</button>
+    </div>
+
+
+    <div class="container hidden" id="quiz">
+        <h2 id="question"></h2>
+        <div id="options"></div>
+    </div>
+
+
+    <div class="container hidden" id="message">
+        <h1>For My Rasmalai ❤️</h1>
+        <p id="letter"></p>
+        <button onclick="showFinal()">Open Final Surprise 🎁</button>
+    </div>
+
+
+    <div class="container hidden" id="final">
+        <h1>Distance is only between us, not between our hearts ❤️</h1>
+        <p>I love you so much, Rasmalai 🫶✨</p>
+    </div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
